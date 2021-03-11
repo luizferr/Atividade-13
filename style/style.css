@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    outline: 0;
+    border: 0;
+    background: 0;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.topo nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    background-color: #333333;
+}
+.topo a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.logo img{
+    margin-left: 50px;
+}
+.centralizacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin-left: 100px;
+}
+.botao a{
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+}
+.botao a:nth-child(1){
+    color: #713D19;
+}
+.botao a:nth-child(2){
+    color: #333333;
+}
+.icone{
+    display: flex;
+}
+.icone i{
+    font-size: 50px;
+    color: #713D19
+}
+.menu nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    background-color: #713D19;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.corpo{
+    width:  100%;
+    height: 500px;
+}
+.corpo img{
+    height: 500px;
+     width: 100%;
+}
+.corpo h2{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    
+}
+.corpo p{
+    text-align: justify;
+    padding: 0px 20px;
+}
+footer{
+    display: flex;
+    border-top: 1px solid black;
+    
+}
+footer img{
+    width: 300px;
+    margin-right: 15px;
+}
